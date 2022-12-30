@@ -8,6 +8,11 @@ const App = () => {
   return (
     <>
       <h1>Lightbulb Challenge</h1>
+      <h2>Click on the boxes to turn the light on and off!</h2>
+      <LightSwitch />
+      <LightSwitch />
+      <LightSwitch />
+      <LightSwitch />
       <LightSwitch />
     </>
   )
