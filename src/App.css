@@ -1,17 +1,20 @@
 body {
-  background-color: darkgrey;
+  background-color: rgba(245, 245, 245, 0.732);
+  border: darkgoldenrod;
+  
 }
 
-
 h1 {
+  background-color: goldenrod;
   text-decoration: underline;
   text-align: center;
-  color: black
+  color: white
 }
 
 h2 {
+  background-color: goldenrod;
   text-align: center;
-  color: black
+  color: white
 }
 
 .lightbulb {
@@ -22,3 +25,17 @@ h2 {
   width: 200px;
   height: 200px;
 }
+
+img {
+  border-radius: 25px;
+  border-style: solid;
+  border-color: goldenrod;
+  margin-left: 370px;
+  margin-top: auto;
+  mix-blend-mode: multiply;
+  height: 150px;
+  width: 150px;
+  align-items: center;
+}
+
+
